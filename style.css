@@ -81,11 +81,10 @@ img {
 
 svg {
     display: flex;
+    align-self: center;
     color: #FFFFFF;
-    padding-left: 87.5px;
-    padding-right: 8px;
-    
-    /* padding-top: 14.5px; */
+    /* padding-left: 87.5px;
+    padding-right: 8px; */
     width: 16px;
     height: 16px;
     font-weight: bold;
@@ -93,6 +92,7 @@ svg {
 
 .buttons {
     display: flex;
+    justify-content: center;
     margin: 24px 32px 32px 32px;
     width: 286px;
     border: 0;
