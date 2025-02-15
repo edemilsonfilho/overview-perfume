@@ -61,3 +61,20 @@ img {
     padding-left: 32px;
     color: rgba(61, 129, 104, 1);
 }
+
+
+.ouo {
+    display: flex;
+    font-size: 13px;
+    padding: 10px 16px 8px 16px;
+    color: #6C7289;
+}
+
+input {
+    margin: 24px 32px 32px 32px;
+    width: 286px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: rgba(61, 129, 104, 1);
+    color: #FFFFFF;
+}
