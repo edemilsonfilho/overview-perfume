@@ -66,15 +66,40 @@ img {
 .ouo {
     display: flex;
     font-size: 13px;
+    text-decoration: line-through;
     padding: 10px 16px 8px 16px;
     color: #6C7289;
 }
 
-input {
+
+
+svg {
+    display: flex;
+    color: #FFFFFF;
+    padding-left: 87.5px;
+    padding-right: 8px;
+    padding-top: 14.5px;
+    width: 16px;
+    height: 16px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
     margin: 24px 32px 32px 32px;
     width: 286px;
+    border: 0;
     height: 50px;
     border-radius: 8px;
     background-color: rgba(61, 129, 104, 1);
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+input {
+    color: #FFFFFF;
+    background-color: rgba(61, 129, 104, 1);
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
 }
