@@ -107,6 +107,7 @@ input {
     color: #FFFFFF;
     background-color: rgba(61, 129, 104, 1);
     border: 0;
+    height: 50px;
     font-weight: bold;
     cursor: pointer;
 }
