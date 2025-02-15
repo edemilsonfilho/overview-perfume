@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     display: flex;
     align-items: center;
@@ -13,7 +15,6 @@ body {
 
 .hero {
     display: flex;
-    align-items: center;
     flex-direction: column;
     height: 750px;
     width: 350px;
@@ -27,4 +28,36 @@ img {
     border-top-right-radius: 8px;
     width: 350px;
     height: 342px;
+}
+
+.perfume {
+    font-size: 12px;
+    font-family: "Montserrat", serif;
+    color: #6C7289;
+    padding: 32px 0 24px 32px;
+    letter-spacing: 5px;
+}
+
+.title {
+    font-size: 32px;
+    padding: 0 32px 24px 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(28, 35, 43, 1);
+}
+
+.bio {
+    font-size: 14px;
+    padding: 0 32px 24px 32px;
+    font-family: "Montserrat", serif;
+}
+
+.preco {
+    display: flex;
+    font-size: 32px;
+    font-weight: bold;
+    padding-left: 32px;
+    color: rgba(61, 129, 104, 1);
 }
